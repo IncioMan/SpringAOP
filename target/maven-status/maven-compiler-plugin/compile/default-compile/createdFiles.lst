@@ -1,0 +1,6 @@
+it\alex_incerti\spring_aop_test\config\ControllerBasic.class
+it\alex_incerti\spring_aop_test\config\AppConfig.class
+it\alex_incerti\spring_aop_test\config\HibernateConfig.class
+it\alex_incerti\spring_aop_test\ServletInitializer.class
+it\alex_incerti\spring_aop_test\config\DispatcherConfig.class
+it\alex_incerti\spring_aop_test\config\PropertySourcePlaceHolderConfig.class

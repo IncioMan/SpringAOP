@@ -15,9 +15,8 @@ public class AdvancedOperationsController {
 
 	@GetMapping
 	@ResponseBody
-	public String getMapping(@RequestParam String username, @RequestParam String password) {
+	public String getAdvancedOperation(@RequestParam String username, @RequestParam String password) {
 		System.out.println("Processing");
-
 		return "Logged";
 	}
 }

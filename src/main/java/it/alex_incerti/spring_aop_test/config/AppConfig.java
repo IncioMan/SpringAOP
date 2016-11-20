@@ -7,6 +7,7 @@ import org.springframework.context.annotation.EnableAspectJAutoProxy;
 import org.springframework.context.annotation.Import;
 import org.springframework.scheduling.annotation.EnableScheduling;
 
+import it.alex_incerti.spring_aop_test.aop.AnnotationAspect;
 import it.alex_incerti.spring_aop_test.aop.LoggingAspect;
 
 @Configuration
@@ -44,5 +45,10 @@ public class AppConfig {
 	@Bean
 	public LoggingAspect loggingAspect() {
 		return new LoggingAspect();
+	}
+
+	@Bean
+	public AnnotationAspect annotationAspect() {
+		return new AnnotationAspect();
 	}
 }
